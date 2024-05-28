@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Semaine de la sécurité routière</title>
+
+		<link rel="stylesheet" href="./dist/reset.css">
+		<link rel="stylesheet" href="./dist/reveal.css">
+		<link rel="stylesheet" href="./dist/theme/black.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					Es-tu prêt ?
+				</section>
+				<section>
+					3...
+				</section>
+				<section>
+					2...
+				</section>
+				<section>
+					1...
+				</section>
+				<section>
+					Allé hop, on commence avec un petit exo pratique 😇
+				</section>
+				<section data-background-color="#ff8f93">
+					<iframe title="Estimer distance freinage" width="700" height="550" src="https://modules.securite-routiere.gouv.fr/module_distance_arret.html"></iframe>
+					<div style="font-size: 2rem">
+						Tu peux modifier le <b>type de route</b> en haut à droite pour pimenter 🌶️ un peu le test
+					</div>
+				</section>
+
+				<section>
+					Cool 😎 bien joué ! On continue ?
+				</section>
+
+				<section data-background-color="#bdb5e4">
+					<iframe title="Estimer distance freinage" width="650" height="550" src="https://modules.securite-routiere.gouv.fr/module_champs_vision.html"></iframe>
+					<div style="font-size: 2rem">
+						Essaye de faire varier la vitesse 🏃 pour voir<br> l'<b>impact sur le champ de vision</b>
+					</div>
+				</section>
+
+				<section>
+					C'est maintenant l'heure du QUIIIIIZ ⁉️
+				</section>
+
+				<section style="color: #bdb5e4;" data-quiz>
+				# Quel est le risque d’accident mortel pour un 🏃 piéton lors d’un choc à 60 km/h ?
+				- [ ] 15%
+				- [ ] 65%
+				- [x] 85%
+				</section>
+				<section style="color: #bdb5e4;" data-quiz>
+				# Rouler plus vite 💨, entraîne de la fatigue supplémentaire 🥱 ?
+				- [x] Oui
+				- [ ] Non
+				</section>
+				<section style="color: #bdb5e4;" data-quiz>
+				#  Une moto 🏍️ freine sur une distance plus longue qu’une voiture 🚗️ ?
+				- [x] Vrai
+				- [ ] Faux
+				</section>
+				<section>
+					👏 Merci d'avoir participé 🎉<br/>
+					N'hésite pas à partager ton résultat sur Slack
+					<img style="margin-top: 10px" height="30px" alt="logo_slack" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" />
+				</section>
+			</div>
+		</div>
+
+		<script src="./dist/reveal.js"></script>
+		<script src="./plugin/highlight/highlight.js"></script>
+		<script src="./plugin/quiz/reveal-quiz-bundle.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealHighlight, RevealQuiz ]
+			});
+		</script>
+	</body>
+</html>
